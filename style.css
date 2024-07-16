@@ -1,0 +1,65 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.img{
+    
+    height:35em;
+    width:auto;
+    float:inline-end;
+    margin:2em 3em 0 0;
+    
+}
+.container{
+    margin-left: 2em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+ 
+}
+.line{
+    margin:0;
+    background-color:#889696;
+    height:3px;
+    width:8.5em;
+
+}
+
+.title{
+    margin:1.3em 0 5px 0;
+    color:#5F7470;
+    font-size:2.6em;
+    
+}
+
+.label1{
+    color:#889696;
+    font-weight:bold;
+   
+}
+
+
+.input{
+    border-radius: 9px;
+    height:2em;
+    width:20em;
+    border:2.8px solid #B8BDB5;
+    margin-top: 3px;
+}
+
+.login{
+    border-radius: 9px;
+    height:2.8em;
+    width:20.5em;
+    border:#5F7470;
+    background-color: #889696;
+    color:white;
+    font-weight:700;
+    cursor:pointer;
+    transition: opacity 0.2s ease-in;
+}
+
+.login:hover{
+    opacity:0.8;
+}
